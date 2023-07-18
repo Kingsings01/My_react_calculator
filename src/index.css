@@ -18,24 +18,27 @@ body {
 .calculator-grid > button {
     cursor: pointer;
     font-size: 2rem;
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.678);
+    border-radius: 1rem;
     outline: none;
     background-color: rgba(255, 255, 255, .75);
 }
 
 .calculator-grid > button:hover,  
 .calculator-grid > button:focus {
-    background-color: rgba(255, 255, 255, .9);
+    background-color: rgba(255, 255, 255, 0.479);
+    border: none;
 }
 
-
 .span-two {
-    grid-column: span 2;
+    grid-column: span 2;   
+    border: none;
 }
 
 .output{
     grid-column: 1 / -1;
-    background-color: rgba(0, 0, 0, .75);
+    background-color: rgba(255, 255, 255, 0.363);
+    border-radius: 1rem;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -46,11 +49,12 @@ body {
 }
 
 .output .previous-operand {
-    color: rgba(255, 255, 255, .75);
+    color: rgba(61, 16, 16, 0.658);
     font-size: 1.5rem;
 }
 
 .output .current-operand {
-    color: white;
+    color: black;
     font-size: 2.5rem;
 }
+

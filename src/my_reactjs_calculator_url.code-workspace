@@ -1,9 +1,7 @@
 {
-	"folders": [
-		{
-			"name": "my_reactjs_calculator_url",
-			"path": ".."
-		}
-	],
-	"settings": {}
+    "folders": [
+        {
+            "path": ".."
+        }
+    ]
 }
